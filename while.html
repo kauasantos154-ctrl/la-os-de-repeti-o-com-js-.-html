@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faca e enquanto</title>
+</head>
+<body>
+    <button onclick="perguntar()">perguntar</button>
+
+    <script>
+        function perguntar(){
+            let nome
+            let resposta
+
+            do{
+            nome = prompt("digite seu nome:")  
+
+            resposta = prompt("quer continuar?")
+            }while (resposta == "sim")
+        }
+    </script>
+</body>
+</html>
