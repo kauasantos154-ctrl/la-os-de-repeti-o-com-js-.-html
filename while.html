@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>faca e enquanto</title>
 </head>
 <body>
@@ -14,9 +13,12 @@
             let resposta
 
             do{
-            nome = prompt("digite seu nome:")  
+            // Rotina para solicitar dados do cliente
+            nome = prompt("digite seu nome:")
+            idade =  prompt("Informe sua idade:")
+            email=  prompt("Informe seu email:")
 
-            resposta = prompt("quer continuar?")
+            resposta = prompt("quer continuar cadastrando mais clientes: ")
             }while (resposta == "sim")
         }
     </script>
